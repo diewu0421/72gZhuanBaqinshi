@@ -38,6 +38,7 @@ public class WelcomeActivity extends BaseActivity implements ViewTreeObserver.On
             case R.id.btn:
                 Intent intent = new Intent(this,MainActivity.class);
                 startActivity(intent);
+                finish();
                 break;
         }
     }
